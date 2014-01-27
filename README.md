@@ -2,8 +2,9 @@
 
 This repository provides implementations for the string similarity algorithms Jaro and Jaro-Winkler. For details of the algorithms please have a look at Wikipedia or somewhere else.
 
-// Jaro-Winkler
+There are two ways to invoke the algorithms:
 * via Go
+
 For Jaro-Winkler it is optionally possible to set custom boost threshold and prefix scale. The defaults are 0.7 and 0.1 as suggested by Jaro and Winkler.
 
 ```go
