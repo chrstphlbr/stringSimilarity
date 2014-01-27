@@ -16,6 +16,7 @@ jw := stringSimilarity.JaroWinkler("string1", "string2")
 
 * via command line
 install commandLineInterface.go from within stringSimilarity/strsim
+
 > go install
 
 and run the compiled output $GOPATH/bin/strsim
