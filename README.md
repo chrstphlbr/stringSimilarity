@@ -5,6 +5,7 @@ This repository provides implementations for the string similarity algorithms Ja
 // Jaro-Winkler
 * via Go
 For Jaro-Winkler it is optionally possible to set custom boost threshold and prefix scale. The defaults are 0.7 and 0.1 as suggested by Jaro and Winkler.
+
 ```go
 j := stringSimilarity.Jaro("string1", "string2")
 
